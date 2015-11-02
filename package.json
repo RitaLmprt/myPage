@@ -1,11 +1,19 @@
 {
-  "name": "myserver",
+  "name": "rita_serves",
   "version": "1.0.0",
-  "description": "",
+  "description": "rita's own node.js server",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "rita",
+  "license": "ISC",
+  "dependencies": {
+    "node-static": "^0.7.7"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/ritas-page.git"
+  }
 }
