@@ -1,5 +1,6 @@
 .button {
     display:block ;
+    
     height: 40px;
     width: 150px;
     margin: 0 auto;
@@ -28,8 +29,9 @@ a.button:hover {
   background-image: url("https://rayandmave.files.wordpress.com/2015/09/rain.gif")
     
 }
-ul{
-  background-image: url("http://jfi.uchicago.edu/~tten/Crumpling/paper.network/backwhite01.GIF")
+.contacts a{
+  font: bold 15px 
 }
+
 
 
