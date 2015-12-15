@@ -31,7 +31,7 @@ a.button:hover {
     
 }
 .object-fit {
- object-fit: none; /* Do not scale the image */
-  object-position: center; /* Center the image within the element */
+ object-fit: cover; 
+ object-position: center; /* Center the image within the element */
 }
 
