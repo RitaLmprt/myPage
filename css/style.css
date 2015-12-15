@@ -25,6 +25,7 @@ a.button:hover {
     background: linear-gradient(top, #3d7a80, #2f5f63);
 }
 .jumbotron{
+  height:300 px;
   text-align: center; 
   background-image: url("https://rayandmave.files.wordpress.com/2015/09/rain.gif")
     
