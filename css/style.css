@@ -30,8 +30,9 @@ a.button:hover {
   background-image: url("https://rayandmave.files.wordpress.com/2015/09/rain.gif")
     
 }
-.object-fit {
- object-fit: cover; 
- object-position: center; /* Center the image within the element */
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
