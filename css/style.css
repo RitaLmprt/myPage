@@ -3,12 +3,12 @@
 }
 .jumbotron{
   display: block;
-  height: 200px;
+  height: 150px;
   text-align: center; 
   background-image: url("https://rayandmave.files.wordpress.com/2015/09/rain.gif");
 }
 img.center {
-  width: 800px;
+  width: 1000px;
   display: block;
   margin-left: auto;
   margin-right: auto;
