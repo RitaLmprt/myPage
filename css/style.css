@@ -1,19 +1,27 @@
 .container{
  
 }
+.row{
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
 .jumbotron{
   height: 150px;
   text-align: center; 
   background-image: url("https://rayandmave.files.wordpress.com/2015/09/rain.gif");
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0px;
 }
 img.center {
-  width: 100%;
+  width: 95%;
   height:auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.horizontal-pad{
+  margin-bottom: 10px;
 }
 
 
