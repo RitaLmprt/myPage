@@ -4,21 +4,42 @@ html, body, {
     bottom:0;
     left:0;
     right:0;
+    font-size: 100%;
+
 }
+nav {
+                width: 100%;
+                height: 40px;
+                background: -webkit-linear-gradient(#3f9a15, #388813, #3f9a15, #388813, #3f9a15);
+                background: -o-linear-gradient(#3f9a15, #388813, #3f9a15, #388813, #3f9a15);
+                background: linear-gradient(#3f9a15, #388813, #3f9a15, #388813, #3f9a15);
+                border-radius: 6px !important;
+                -moz-border-radius: 6px !important;
+            }
+
+        .nav a{
+            color: white !important;
+            font-size: 1.6em !important;
+        }
+.nav li{
+padding-right:5px;
+}
+
 .button {
     display:block ;
     
-    height: 35px;
-    width: 150px;
+    height: 70px;
+    width: 300px;
     margin: 0 auto;
     background: #35696f;
     border: 2px solid rgba(33, 68, 72, 0.59);
     color: rgba(0, 0, 0, 0.55);
     text-align: center;
-    font: bold 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font: bold 50px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
     border-radius: 50px;
     box-shadow: 0 8px 0 #1b383b;
     text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+    
 }
 a.button {
     text-decoration: none;
@@ -47,5 +68,10 @@ table {
     margin-left: auto;
     margin-right: auto }
 }
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
 
 
