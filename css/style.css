@@ -153,15 +153,16 @@ li {width: 300px;
         padding:.5em;
 
     }    
+    nav ul{display:block;}
+    nav li{
+        display:block;
+        text-align: left;
+        
+
+    }  
+   
     
 }
-
-
-
- 
-
-
-
 
 
 h1 { 
