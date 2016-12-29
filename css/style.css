@@ -125,6 +125,20 @@ ul{
     white-space: nowrap
 }
 
+li {width: 300px;
+    height: 350px;
+    background: white;
+    display:inline-block;
+    vertical-align:middle;
+    text-align:center;
+    font-family:Arial,sans-serif;
+    font-weight:bold;
+    border:1px inset gray;
+    margin-right: 5px;
+    margin: 10px;
+    padding-top: 5px;
+    box-shadow: 10px 10px grey }   
+
 
 
 
@@ -142,45 +156,9 @@ ul{
     
 }
 
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1400px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-    li {width: 300px;
-    height: 350px;
-    background: white;
-    display:inline-block;
-    vertical-align:middle;
-    text-align:center;
-    font-family:Arial,sans-serif;
-    font-weight:bold;
-    border:1px inset gray;
-    margin-right: 5px;
-    margin: 10px;
-    padding-top: 5px;
-    box-shadow: 10px 10px grey }   
 
-}
-@media screen 
-  and (min-device-width: 1401px) 
-  {
-    li {
-    width: 500px;
-    height: 500px;
-    background: white;
-    display:inline-block;
-    vertical-align:middle;
-    text-align:center;
-    font-family:Arial,sans-serif;
-    font-weight:bold;
-    border:1px inset gray;
-    margin-right: 5px;
-    margin: 10px;
-    padding-top: 5px;
-    box-shadow: 10px 10px grey    
-}
 
-  }
+ 
 
 
 
