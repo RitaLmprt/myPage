@@ -43,6 +43,8 @@ nav {
         }
 #navbar{
     background: #333;
+    opacity: 0.8;
+    
     width: 100%;
     
 }
@@ -160,7 +162,7 @@ li {width: 300px;
         
 
     }  
-   
+
     
 }
 
