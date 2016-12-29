@@ -26,8 +26,8 @@ body{
     }
 
 nav {
-                padding-left: 14%;
-                padding-right: 12%;
+                padding-left: 15%;
+                padding-right: 10%;
                 height: 40px;
                 background: -webkit-linear-gradient(#3f9a15, #388813, #3f9a15, #388813, #3f9a15);
                 background: -o-linear-gradient(#3f9a15, #388813, #3f9a15, #388813, #3f9a15);
@@ -87,7 +87,8 @@ a.button:hover {
 }
 .jumbotron{
   
-  height: 200px;
+  height: 100px;
+ 
   text-align: center; 
   background-image: url("https://rayandmave.files.wordpress.com/2015/09/rain.gif")
     
@@ -95,12 +96,15 @@ a.button:hover {
 table {
     width: 100%;
 }
+.media-object{
+    widt: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+img.displayed{
 
-
-
-
-
-
+}
 
 p {
     line-height: 18px;
@@ -121,7 +125,7 @@ ul{
 }
 
 li {
-    width: 30%;
+    width: 300px;
     height: 350px;
     background: white;
     display:inline-block;
@@ -131,14 +135,14 @@ li {
     font-weight:bold;
     border:1px inset gray;
     margin-right: 5px;
-    margin: 25px;
+    margin: 10px;
     padding-top: 5px;
     box-shadow: 10px 10px grey    
 }
 
 
 @media screen and (max-width:51em) {
-    .col-xs-12 {min-width:auto;}
+    .outermost {min-width:auto;}
     .outerwrap {padding-top:0;}
     .wrapper {position:static;}
     ul {display:block;}
@@ -149,10 +153,8 @@ li {
 
     }
     
-    ul li img, ul li a{
-        display:block;
-        margin: auto;
-    }
+    
+    
 }
 
 
@@ -168,7 +170,7 @@ h1 {
     font-weight: bold;
     text-align: center;
 }
-.wrapper { margin-right: auto; margin-left: auto; width:1500px ;}
+.wrapper { margin-right: auto; margin-left: auto; width:75% ;}
 .description{
     padding: 0.5em;
     position:relative;
@@ -181,9 +183,9 @@ h1 {
  .wrapper > ul > li:hover{
     opacity: 1.0;
  }
- .col-xs-12{
+ .outermost{
   
-    padding-top: 20px;
+    padding-top: 40px;
     position: absolute;
     top:0;
     bottom: 0;
