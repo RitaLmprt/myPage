@@ -145,7 +145,10 @@ li {
 }
 
 
-    
+ @media screen and (min-width:1200px) {   
+    .all{
+        width:1500px;
+    }
     
 
 
