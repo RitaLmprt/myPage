@@ -175,7 +175,7 @@ h1 {
     font-weight: bold;
     text-align: center;
 }
-.wrapper { margin-right: auto; margin-left: auto; width:80%;}
+.wrapper { margin-right: auto; margin-left: auto; width:80%; position:static;}
 .description{
     padding: 0.5em;
     position:relative;
