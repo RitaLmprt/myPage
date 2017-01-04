@@ -122,7 +122,9 @@ p {
 
 
 ul{
-    white-space: nowrap
+    white-space: nowrap;
+    padding-left: 5%;
+    padding-right: 10%;
 }
 
 li {width: 300px;
@@ -134,9 +136,9 @@ li {width: 300px;
     font-family:Arial,sans-serif;
     font-weight:bold;
     border:1px inset gray;
-    margin-right: 5px;
-    margin: 10px;
-    padding-top: 5px;
+    margin-right:13%;
+    padding-top: 20px;
+    margin-top: 20px;
     box-shadow: 10px 10px grey }   
 
 
@@ -156,12 +158,9 @@ li {width: 300px;
     nav ul{display:block;}
     nav li{
         display:block;
-        text-align: left;
-        
+        text-align: left;    
 
-    }  
-
-    
+    }      
 }
 
 
@@ -175,7 +174,7 @@ h1 {
     font-weight: bold;
     text-align: center;
 }
-.wrapper { margin-right: auto; margin-left: auto; width:80%; position:static;}
+.wrapper { padding-left:15%;padding-right:15%;}
 .description{
     padding: 0.5em;
     position:relative;
@@ -191,13 +190,10 @@ h1 {
  .outermost{
   
     padding-top: 40px;
-    position: absolute;
     top:0;
     bottom: 0;
     left: 0;
     right: 0;
-
-    margin: auto;
  }
 
  #footer {
