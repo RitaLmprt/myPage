@@ -313,6 +313,8 @@ h3 {
 #imgBig {
     cursor: pointer;
     top: 60px;  
+    z-index: 100;
+   
 }
 
 
@@ -332,14 +334,15 @@ h3 {
   position: relative;
   top:50px;
   width: 83%;
+  z-index: 5;
   padding-top: 10px;
   padding-left: 25%;
   padding-right: 5%;
   margin-left: 3%;
   margin-right: 8%;
-  background-color: white;
   height: 500px;
 }
+
 #collapsable{
   position: relative;
   top: 50px;
@@ -349,4 +352,37 @@ h3 {
 #colapsable ul{
   padding-left: 20%;
   padding-right: 10%; 
+}
+#rats::before {
+    content: "";
+    position: relative;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    opacity: .6;
+}
+#coursera::before {
+    content: "";
+    position: relative;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    opacity: .4;
+}
+#duolingo::before {
+    content: "";
+    position: relative;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    opacity: .4;
 }
