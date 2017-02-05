@@ -23,6 +23,6 @@ $("#imgSmaller").click(function(){
 $("#imgBig").click(function(){
     $("#imgBig").attr("src", "");
     $("#overlay").hide();
-    $("#overlayContent").hide();
+    $("#coursera").hide();
  
 });
