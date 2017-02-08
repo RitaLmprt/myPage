@@ -320,12 +320,7 @@ h3 {
 }
 
 
-#images{
-  position: relative;
-  padding-left: 20%;
-  padding-right: 10%;
-  padding-top: 50px;
-}
+
 #intro{
   position: relative;
   top: 50px;
@@ -338,7 +333,7 @@ h3 {
   width: 83%;
   z-index: 5;
   padding-top: 10px;
-  padding-left: 25%;
+
   padding-right: 5%;
   margin-left: 3%;
   margin-right: 8%;
