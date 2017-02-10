@@ -224,7 +224,13 @@ nav{
         display:block;
         text-align: left;    
 
-    }      
+    } 
+
+    #imgBig{
+      float:left;
+      width: 178px;
+      text-align:center;
+    }    
 }
 
 
