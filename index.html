@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html >
-<head>
-  <meta charset="utf-8">
+ <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My new page</title>
@@ -12,83 +9,26 @@
     <link href="css/bootstrap-social.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="angular-bootstrap-lightbox/dist/angular-bootstrap-lightbox.css"> 
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
 </head>
-
 <body>
-  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="navb">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar" >
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav navbar-left" style={border:1px solid blue;}>
-                <li><a href="index.html"><span class="glyphicon glyphicon-home"
-                         aria-hidden="true"> Home</a></li>
-                <li><a href="projects.html"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> My projects</a></li>
-                <li ><a href="blog.html"><span class="glyphicon glyphicon-pencil"
-                         aria-hidden="true"></span> Blog </a></li>
-
+   <div class="top-nav">
+    <nav>
+        <h1>Rita Lempert's Home Page</h1>
+                <ul>
+                    <li> <a href="#">home</a> </li>
+                    <li> <a href="#">Portfolio</a> </li>
+                    <li> <a href="#">About</a> </li>
             </ul>
-            
-                <ul class="nav navbar-nav navbar-right">
-                <li><a href="https://il.linkedin.com/in/rita-lempert-looking-for-my-next-job-8602a97b" title="Contact me on Linkedin"><span class="fa fa-linkedin" aria-hidden="true"></span></a></li>
-                <li><a href="http://freecodecamp.com/ritalmprt" title="Look at my work on freecodecamp"><span class="fa fa-fire" aria-hidden="true"></span></a></li>
-                <li><a href="https://github.com/RitaLmprt" title="Look at my work on Github"><span class="fa fa-github" aria-hidden="true"></span></a></li>              
-              </ul>
-            </div>
-          
-
-         </div>
-        </nav>    
-   <div id="intro">
-    <H1> Rita Lempert<br> Junior Web Developer</H1>
-   </div>
-  <div id="collapsable">
-      <div id="rats" class="collapse">
-          <a id="close" href="index.html">&times;</a>
-          <img id="imgBig" width="400" src="img/krys_thumb.jpg" align="left" alt""/>
-          I have 3 pet rats. They are very sweet and understated animals. Rats are the smartest rodents. They can recognize they name and learn tricks. If you want to know more about pet rats, please see this fb page:
-          <a href = "https://www.facebook.com/groups/ratsloverisrael/" > About Rats </a>
-      </div>
-      <div id="coursera" class="collapse">
-          <a id="close" href="index.html">&times;</a>
-          <img id="imgBig" width="400" src="img/coursera.jpg" align="left" alt""/>
-          I completed and have certificates from various Coursera courses, including:<br>
-            Python; HTML, CSS and JavaScript; Front-End Web UI Frameworks and Tools; Front-End 
-            JavaScript Frameworks: AngularJS.
-          
-      </div>
-      <div id="duolingo" class="collapse">
-        <a id="close" href="index.html">&times;</a>
-       <img id="imgBig" width="400" src="img/duolingo.jpg" align="left" alt""/>
-       I can read, write and communicate in English, Hebrew and Russian.<br>Right now I'm learning Spanish, French and German. It sounds a little bit too much, but I believe I can reach proficiency and even fluency in all this languages.
-       
-    </div>
-    <ul>
-      <li>
-        <a href="#rats" data-toggle="collapse" ><img id="imgSmall" width="200" src="img/krys_thumb.jpg" alt="" />
-        <p> My pets</p></a>
-      </li>
-       <li>
-        <a href="#coursera" data-toggle="collapse"><img id="imgSmall" width="200" src="img/coursera_thumb.jpg" alt="" />
-        <p> My studies</p></a>
-      </li>
-       <li>
-        <a href="#duolingo" data-toggle="collapse"><img id="imgSmall" width="200" src="img/duolingo_thumb.jpg" alt="" />
-        <p> My languages</p></a>
-      </li>
-    </ul>
-  </div>
-  
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js'></script>
-  <script src="js/fullSlider.js"></script>
-  <script src="angular-bootstrap-lightbox/dist/angular-bootstrap-lightbox.js"></script>
-
-  </body>
-</html>
+    </nav>
+   <section class="section-1">
+  <p>Rita Lempert is a front-end developer. Her work focuses on using progressive enhancement to create elegant, responsive web design for optimal user-experience.</p>
+  <p><span><a href="/about">Learn More</a></p></span></section>
+<section class="section-2"><h3>Portfolio</h3>
+  <img src="http://vignette4.wikia.nocookie.net/alphaomega-theoretics/images/d/d7/Square-outline-256.png/revision/latest?cb=20150516185345" alt="thumbnail goes here"/>
+  <img src="http://vignette4.wikia.nocookie.net/alphaomega-theoretics/images/d/d7/Square-outline-256.png/revision/latest?cb=20150516185345" alt="thumbnail goes here"/>
+  <img src="http://vignette4.wikia.nocookie.net/alphaomega-theoretics/images/d/d7/Square-outline-256.png/revision/latest?cb=20150516185345" alt="thumbnail goes here"/>
+  <span><p><a href="/portfolio">View More</a></p></span>
+</section>
+</body>
+<footer>To get in touch with Rita, <a href="mailto:rita.lempert@gmail.com">Email</a> is best, <span class="footer-span">or you can connect with her via her <a herf="/about">About</a> page.</span></footer>
