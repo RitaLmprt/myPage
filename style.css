@@ -22,6 +22,18 @@ h1 {
     padding: 2% 5%;
   }
 }
+h3 {
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: bold;
+  width: 100%;
+  padding: 2% 0 0;
+  text-align: center;
+  letter-spacing: .05em;
+  @media(max-width: 767px){
+    padding: 2% 5%;
+  }
+}
 nav ul {
   display: inline-block;
   text-align:center;
@@ -71,18 +83,34 @@ section{
     float: left;
   }
 }
-.section-3{
+.section-2 img a{
+  float: left;
+  margin:5px;
+  @media(min-width: 768px) {
+    display: inline;
+    float: left;
+  }
+
+}
+
+.section-3 {
+  background-color: #0082ff;
+  color: #ffffff;
+  font-size: 1.5em;
+}
+.section-4{
   background-color: #ffffff;
   color: #000000;
 }
-.section-3 img {
+.section-4 img {
   margin: auto;
   padding: 0 8%;
   @media(min-width: 768px) {
     display: inline;
     float: left;
+    margin:10px;
   }
-}
+ }
 /*Landing page link styles from content sections*/
 span{ 
   text-transform: uppercase;
