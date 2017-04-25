@@ -53,16 +53,13 @@ a {
   color: #2d3033;
   text-decoration: none;
 }
-a:hover {
-  color: #0082ff;
-  text-decoration: none;
-}
+
 a:visited {
   color: #4dc9ff;
 }
 /*Homepage content sections*/
 section{
-  font-size: 2em;
+  font-size: 1.5em;
   padding: 2% 12%;
   text-align: center;
   line-height: 125%;
@@ -96,13 +93,27 @@ section{
 .section-3 {
   background-color: #0082ff;
   color: #ffffff;
-  font-size: 1.5em;
+
 }
+
 .section-4{
   background-color: #ffffff;
   color: #000000;
 }
 .section-4 img {
+  margin: auto;
+  padding: 0 8%;
+  @media(min-width: 768px) {
+    display: inline;
+    float: left;
+    margin:10px;
+  }
+ }
+.section-5{
+  background-color: #ffffff;
+  color: #000000;
+}
+.section-5 img {
   margin: auto;
   padding: 0 8%;
   @media(min-width: 768px) {
