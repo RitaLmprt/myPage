@@ -80,15 +80,7 @@ section{
     float: left;
   }
 }
-.section-2 img a{
-  float: left;
-  margin:5px;
-  @media(min-width: 768px) {
-    display: inline;
-    float: left;
-  }
 
-}
 
 .section-3 {
   background-color: #0082ff;
